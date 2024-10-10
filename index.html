@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christine Joy S. Alutaya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #007acc;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s, border 0.3s;
+        }
+        nav a:hover {
+            background: white;
+            color: #007acc;
+            border: 2px solid #007acc;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.8s forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h2 {
+            color: #007acc;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #007acc;
+            color: white;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-top: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            background-color: #007acc;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #005f99;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .scroll-section {
+            position: relative;
+            overflow: hidden;
+            background-color: #eee;
+            padding: 20px;
+        }
+        .scroll-section p {
+            animation: scroll 20s linear infinite;
+            white-space: nowrap;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        @keyframes scroll {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CJSA - Christine Joy S. Alutaya</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#art">Art</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#writing">Writing</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://via.placeholder.com/800x400?text=Your+Image+Here" alt="Your Portrait" class="image">
+        <p>Welcome to my creative space! My name is Christine Joy S. Alutaya, a 19-year-old passionate about the intertwining realms of <strong>writing</strong>, <strong>teaching</strong>, and <strong>art</strong>. Ever since I was young, I've been captivated by the power of storytelling and the emotions it evokes. My journey has led me to embrace the written word as my primary form of expression, allowing me to craft narratives that resonate deeply with readers.</p>
+        <p>Writing for me is a form of magic—a way to capture fleeting moments and transform them into something eternal. Whether through poetry, songs, or prose, I aim to create works that inspire reflection and foster connections among individuals. My literary voice is imbued with themes of love, resilience, and the quest for understanding, inviting readers into a world where every story holds the potential for profound meaning.</p>
+        <p>In my quest for creativity, I also indulge in my love for <strong>dark chocolate</strong>, which fuels my imagination and sparks new ideas. Each bite is a delightful reminder that sweetness can be found in both life and art. As I continue on this journey, I look forward to sharing my stories with you and exploring the countless ways we can connect through our shared experiences.</p>
+    </section>
+    
+    <section id="art">
+        <h2>Art</h2>
+        <img src="https://via.placeholder.com/800x400?text=Art+Showcase" alt="Art Showcase" class="image">
+        <p>Art is not just a hobby; it’s an integral part of who I am. It serves as an extension of my thoughts and emotions, allowing me to communicate in ways that words often cannot. This section is dedicated to showcasing my drawings and portraits, each piece telling its own unique story.</p>
+        <p>Through various mediums—pencil, charcoal, and digital—I express my fascination with the human experience. Every stroke is a reflection of my perspective, aiming to capture the beauty of life’s moments. I invite you to explore my artistic journey and discover the narratives behind each creation.</p>
+    </section>
+    
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <img src="https://via.placeholder.com/800x400?text=Teaching+Kids" alt="Teaching Kids" class="image">
+        <p>Teaching is a true calling for me. It’s a fulfilling role that allows me to inspire young minds and help them grow into their best selves. My teaching philosophy centers around creating an inclusive environment that fosters curiosity and encourages students to explore their interests. I focus on understanding each child’s unique learning style and tailoring my approach to meet their needs.</p>
+        <p>As a mentor, I strive to ignite a passion for learning, empowering my students to pursue their dreams. It’s incredibly rewarding to witness their growth and development, knowing that I play a part in shaping their futures. Together, we embark on an educational journey filled with discovery, creativity, and personal growth.</p>
+    </section>
+    
+    <section id="writing">
+        <h2>Writing</h2>
+        <img src="https://via.placeholder.com/800x400?text=Writing+Process" alt="Writing Process" class="image">
+        <p>Writing is the heartbeat of my life. It allows me to articulate my thoughts and emotions while inviting readers to share in my experiences. I craft poetry, songs, and stories that are rich with emotion and depth, always striving to evoke feelings that resonate deeply.</p>
+        <p>Each piece I create is a labor of love, reflecting my experiences, hopes, and dreams. Writing is a journey that continuously evolves, and I am excited to explore new genres and styles, discovering the limitless possibilities that language offers. Through my writing, I hope to spark conversation and connection among readers, fostering a community where stories unite us all.</p>
+    </section>
+    
+    <section id="goals">
+        <h2>Goals</h2>
+        <img src="https://via.placeholder.com/800x400?text=Future+Goals" alt="Future Goals" class="image">
+        <p>My dreams and aspirations are boundless. I aim to become a published author, sharing my narratives with the world and touching the hearts of readers everywhere. My vision extends beyond personal success; I aspire to be a dedicated community server, actively participating in initiatives that promote positive change and uplift those around me.</p>
+        <p>One of my most cherished goals is to establish an educational institution known as "The Pathfinder Society." This academy will serve as a nurturing environment where creativity meets learning, empowering students to discover their potential. I believe that education is the key to shaping a better future, and I am committed to fostering a space where every child feels valued and inspired to pursue their passions.</p>
+    </section
